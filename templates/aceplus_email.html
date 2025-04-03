@@ -2,55 +2,125 @@
 <html>
 
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ACEplus Welcome</title>
+    <title>Welcome to ACEplus</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 600px;
+            background-color: #fff;
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .header {
+            background-color: #660099;
+            color: #fff;
+            text-align: center;
+            padding: 50px 0;
+            font-size: 44px;
+            font-weight: bold;
+            border-radius: 10px 10px 0 0;
+        }
+
+        .content {
+            padding: 20px;
+            color: #333;
+        }
+
+        .content p {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        .footer {
+            text-align: center;
+            font-size: 14px;
+            color: #666;
+            padding: 10px;
+        }
+
+        .contact {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+            margin-top: 10px;
+        }
+
+        .contact a {
+            text-decoration: none;
+            color: #660099;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .icon {
+            width: 20px;
+            height: 20px;
+        }
+
+        .logo {
+            display: block;
+            margin: 10px auto;
+            width: 150px;
+        }
+    </style>
 </head>
 
-<body style="margin: 0; padding: 0; font-family: Arial, sans-serif;">
-    <table role="presentation" width="100%" border="0" cellspacing="0" cellpadding="0">
-        <tr>
-            <td align="center" style="padding: 30px 20px;">
-                <table role="presentation" width="600" border="0" cellspacing="0" cellpadding="0"
-                    style="border: 1px solid #e0e0e0;">
-
-                    <tr>
-                        <td style="padding: 30px 25px; background-color: #f8f9fa; border-bottom: 2px solid #007bff;">
-                            <h1 style="color: #2d3436; margin: 0;">Welcome to ACEplus</h1>
-                        </td>
-                    </tr>
-
-
-                    <tr>
-                        <td style="padding: 30px 25px;">
-                            <p style="color: #444; margin: 0 0 20px 0;">
-                                Dear {{ parent_name }},
-                            </p>
-
-
-                            <div style="background-color: #f8f9fa; padding: 20px; border-radius: 5px; margin: 25px 0;">
-                                <h3 style="color: #2d3436; margin: 0 0 15px 0;">Registration Details:</h3>
-                                <table>
-                                    <tr>
-                                        <td style="padding: 5px 10px 5px 0; color: #666;">Name:</td>
-                                        <td style="padding: 5px 0; color: #2d3436;">{{ parent_name }}</td>
-                                    </tr>
-                                    <tr>
-                                        <td style="padding: 5px 10px 5px 0; color: #666;">Mobile No:</td>
-                                        <td style="padding: 5px 0; color: #2d3436;">{{ mobile }}</td>
-                                    </tr>
-                                    <tr>
-                                        <td style="padding: 5px 10px 5px 0; color: #666;">Email Address:</td>
-                                        <td style="padding: 5px 0; color: #2d3436;">{{ email }}</td>
-                                    </tr>
-                                </table>
-                            </div>
-                        </td>
-                    </tr>
-                </table>
-            </td>
-        </tr>
-    </table>
+<body>
+    <div class="container">
+        <div class="header">
+            ACEplus
+            <p style="font-size: xx-small;">Achieve. Confidence. English</p>
+        </div>
+        <div class="content">
+            <p><strong>Subject: Welcome to ACEplus</strong></p>
+            <p>Dear {{ parent_name }},</p>
+            <p>Welcome to ACEplus – a new and unique learning platform that teaches students to <strong>Achieve</strong>
+                necessary life skills and be more <strong>Confident</strong> while communicating in English.</p>
+            <p>This app will help your child develop 5 key 21st-century success skills:</p>
+            <ul>
+                <li>Life Skills</li>
+                <li>Cognitive Skills</li>
+                <li>Spoken English Skills</li>
+                <li>Interpersonal Skills</li>
+                <li>Communication Skills</li>
+            </ul>
+            <p>This will be done through friendly and interactive videos, scientifically crafted exercises, and colorful
+                learning-based games, reinforced by LIVE feedback sessions by specially trained skill coaches.</p>
+            <p><strong>Here are your registration details:</strong></p>
+            <p>Name: {{ parent_name }}<br>
+                Mobile No: {{ mobile }}<br>
+                Email Address: {{ email }}</p>
+            <p>Thank you for signing up for our New ACEplus App. Please proceed to register your child/children if you
+                have not already done so.</p>
+            <p>Warm Regards,<br>Team ACEplus</p>
+            <img class="logo" src="https://via.placeholder.com/150" alt="ACEplus Logo">
+        </div>
+        <div class="footer">
+            <p>For any queries contact us at</p>
+            <div class="contact">
+                <a href="tel:+91{{ mobile }}"><img class="icon"
+                        src="https://cdn-icons-png.flaticon.com/512/724/724664.png" alt="Phone"> +91 8979919963</a>
+                <a href="mailto:{{ email }}"><img class="icon"
+                        src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email"> help@aceplu</a>
+                <a href="https://aceplus.in" target="_blank"><img class="icon"
+                        src="https://cdn-icons-png.flaticon.com/512/25/25694.png" alt="Website"> aceplus.in</a>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
