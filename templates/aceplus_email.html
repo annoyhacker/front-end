@@ -2,8 +2,8 @@
 <html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Welcome to ACEplus</title>
     <style>
         body {
@@ -27,7 +27,7 @@
             color: #fff;
             text-align: center;
             padding: 50px 0;
-            font-size: 44px;
+            font-size: 50px;
             font-weight: bold;
             border-radius: 10px 10px 0 0;
         }
@@ -49,32 +49,20 @@
             padding: 10px;
         }
 
-        .contact {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: 15px;
-            margin-top: 10px;
-        }
-
-        .contact a {
-            text-decoration: none;
+        .contact-link {
             color: #660099;
             font-weight: bold;
-            display: flex;
-            align-items: center;
-            gap: 5px;
+            font-size: 14px;
+            text-decoration: none;
+            font-family: Arial, sans-serif;
         }
 
         .icon {
-            width: 20px;
-            height: 20px;
-        }
-
-        .logo {
-            display: block;
-            margin: 10px auto;
-            width: 150px;
+            vertical-align: middle;
+            width: 18px;
+            height: 18px;
+            margin-right: 6px;
+            border: 0;
         }
     </style>
 </head>
@@ -83,42 +71,51 @@
     <div class="container">
         <div class="header">
             ACEplus
-            <p style="font-size: xx-small;">Achieve. Confidence. English</p>
+            <p style="font-size: medium;">Achieve. Confidence. English</p>
         </div>
         <div class="content">
             <p><strong>Subject: Welcome to ACEplus</strong></p>
             <p>Dear {{ parent_name }},</p>
             <p>Welcome to ACEplus – a new and unique learning platform that teaches students to <strong>Achieve</strong>
                 necessary life skills and be more <strong>Confident</strong> while communicating in English.</p>
-            <p>This app will help your child develop 5 key 21st-century success skills:</p>
-            <ul>
-                <li>Life Skills</li>
-                <li>Cognitive Skills</li>
-                <li>Spoken English Skills</li>
-                <li>Interpersonal Skills</li>
-                <li>Communication Skills</li>
-            </ul>
+            <p>This app will help your child develop 5 key 21st-century success skills: i. Life Skills, ii. Cognitive
+                Skills, iii. Spoken English Skills, iv. Interpersonal Skills, v. Communication Skills.</p>
+
             <p>This will be done through friendly and interactive videos, scientifically crafted exercises, and colorful
                 learning-based games, reinforced by LIVE feedback sessions by specially trained skill coaches.</p>
             <p><strong>Here are your registration details:</strong></p>
-            <p>Name: {{ parent_name }}<br>
-                Mobile No: {{ mobile }}<br>
+            <p>Name: {{ parent_name }}<br />
+                Mobile No: {{ mobile }}<br />
                 Email Address: {{ email }}</p>
             <p>Thank you for signing up for our New ACEplus App. Please proceed to register your child/children if you
                 have not already done so.</p>
-            <p>Warm Regards,<br>Team ACEplus</p>
-            <img class="logo" src="https://via.placeholder.com/150" alt="ACEplus Logo">
+            <p>Warm Regards,<br />Team ACEplus</p>
+            <img class="logo" src="../static/img/acelogo.png" alt="ACEplus Logo" />
         </div>
         <div class="footer">
             <p>For any queries contact us at</p>
-            <div class="contact">
-                <a href="tel:+91{{ mobile }}"><img class="icon"
-                        src="https://cdn-icons-png.flaticon.com/512/724/724664.png" alt="Phone"> +91 8979919963</a>
-                <a href="mailto:{{ email }}"><img class="icon"
-                        src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email"> help@aceplu</a>
-                <a href="https://aceplus.in" target="_blank"><img class="icon"
-                        src="https://cdn-icons-png.flaticon.com/512/25/25694.png" alt="Website"> aceplus.in</a>
-            </div>
+            <table align="center" cellpadding="0" cellspacing="15" style="margin: 0 auto;">
+                <tr>
+                    <td>
+                        <a href="tel:+91{{ mobile }}" class="contact-link">
+                            <img class="icon" src="https://cdn-icons-png.flaticon.com/512/724/724664.png" alt="Phone" />
+                            +91 8979919963
+                        </a>
+                    </td>
+                    <td>
+                        <a href="mailto:{{ email }}" class="contact-link">
+                            <img class="icon" src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email" />
+                            help@aceplus.in
+                        </a>
+                    </td>
+                    <td>
+                        <a href="https://aceplus.in" target="_blank" class="contact-link">
+                            <img class="icon" src="https://cdn-icons-png.flaticon.com/512/25/25694.png" alt="Website" />
+                            aceplus.in
+                        </a>
+                    </td>
+                </tr>
+            </table>
         </div>
     </div>
 </body>

@@ -42,3 +42,48 @@
 2025-04-03 22:23:09,067 - INFO - 127.0.0.1 - - [03/Apr/2025 22:23:09] "GET / HTTP/1.1" 200 -
 2025-04-03 22:23:20,639 - INFO - ACEplus welcome email sent to rawatkapish969073@gmail.com
 2025-04-03 22:23:20,640 - INFO - 127.0.0.1 - - [03/Apr/2025 22:23:20] "POST /signup HTTP/1.1" 200 -
+2025-05-15 16:24:25,249 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-15 16:24:25,249 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-15 16:25:43,745 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-15 16:25:43,745 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-15 16:30:23,804 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.2:5000
+2025-05-15 16:30:23,805 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-15 16:30:23,808 - INFO -  * Restarting with stat
+2025-05-15 16:30:24,773 - WARNING -  * Debugger is active!
+2025-05-15 16:30:24,781 - INFO -  * Debugger PIN: 559-090-086
+2025-05-15 16:31:45,900 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.2:5000
+2025-05-15 16:31:45,900 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-15 16:31:45,903 - INFO -  * Restarting with stat
+2025-05-15 16:31:46,642 - WARNING -  * Debugger is active!
+2025-05-15 16:31:46,648 - INFO -  * Debugger PIN: 559-090-086
+2025-05-15 16:32:57,731 - INFO - 127.0.0.1 - - [15/May/2025 16:32:57] "GET / HTTP/1.1" 200 -
+2025-05-15 16:33:12,049 - INFO - ACEplus welcome email sent to rawatkapish969073@gmail.com
+2025-05-15 16:33:12,050 - INFO - 127.0.0.1 - - [15/May/2025 16:33:12] "POST /signup HTTP/1.1" 200 -
+2025-05-15 16:41:00,295 - INFO - ACEplus welcome email sent to rawatkapish969073@gmail.com
+2025-05-15 16:41:00,296 - INFO - 127.0.0.1 - - [15/May/2025 16:41:00] "POST /signup HTTP/1.1" 200 -
+2025-05-15 16:41:16,999 - INFO - 127.0.0.1 - - [15/May/2025 16:41:16] "GET / HTTP/1.1" 200 -
+2025-05-15 16:41:26,207 - INFO - ACEplus welcome email sent to rawatkapish969073@gmail.com
+2025-05-15 16:41:26,208 - INFO - 127.0.0.1 - - [15/May/2025 16:41:26] "POST /signup HTTP/1.1" 200 -
+2025-05-15 16:44:44,759 - INFO - 127.0.0.1 - - [15/May/2025 16:44:44] "GET / HTTP/1.1" 200 -
+2025-05-15 16:45:09,293 - INFO - ACEplus welcome email sent to rawatkapish969073@gmail.com
+2025-05-15 16:45:09,294 - INFO - 127.0.0.1 - - [15/May/2025 16:45:09] "POST /signup HTTP/1.1" 200 -
+2025-05-15 16:47:15,719 - INFO - 127.0.0.1 - - [15/May/2025 16:47:15] "GET / HTTP/1.1" 200 -
+2025-05-15 16:47:28,371 - INFO - ACEplus welcome email sent to rawatkapish969073@gmail.com
+2025-05-15 16:47:28,372 - INFO - 127.0.0.1 - - [15/May/2025 16:47:28] "POST /signup HTTP/1.1" 200 -
+2025-05-15 17:06:25,434 - INFO - 127.0.0.1 - - [15/May/2025 17:06:25] "GET / HTTP/1.1" 200 -
+2025-05-15 17:06:26,717 - INFO - ACEplus welcome email sent to rawatkapish969073@gmail.com
+2025-05-15 17:06:26,717 - INFO - 127.0.0.1 - - [15/May/2025 17:06:26] "POST /signup HTTP/1.1" 200 -
+2025-05-15 17:06:34,373 - INFO - ACEplus welcome email sent to rawatkapish969073@gmail.com
+2025-05-15 17:06:34,373 - INFO - 127.0.0.1 - - [15/May/2025 17:06:34] "POST /signup HTTP/1.1" 200 -
+2025-05-15 17:08:31,383 - INFO - 127.0.0.1 - - [15/May/2025 17:08:31] "GET / HTTP/1.1" 200 -
+2025-05-15 17:08:39,489 - INFO - ACEplus welcome email sent to rawatkapish969073@gmail.com
+2025-05-15 17:08:39,490 - INFO - 127.0.0.1 - - [15/May/2025 17:08:39] "POST /signup HTTP/1.1" 200 -
+2025-05-15 17:09:20,987 - INFO - 127.0.0.1 - - [15/May/2025 17:09:20] "GET / HTTP/1.1" 200 -

@@ -72,5 +72,5 @@ def signup():
 def home():
     return render_template('signup.html')
 
-if __name__ == '__main_':
+if __name__ == '__main__':
     app.run(  port=5000, host ='0.0.0.0' , debug=True)
